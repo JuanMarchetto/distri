@@ -26,7 +26,7 @@ describe("We Create an Agreement", () => {
     ];
 
     const tx = await program.methods.createAgreement(
-      "Some Pool!",
+      "Great Pool!",
       members
     )
     .accounts({

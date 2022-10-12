@@ -2,9 +2,9 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-distri = "HQKLqRybscqj5icnwXyvgy9td2iadzSJLvPiD59bwU9Y"
+distri = "NXWBTWj6tHwbhkfEX2UREh9JBSzaKKABk4br8hztKpT"
 [programs.devnet]
-distri = "HQKLqRybscqj5icnwXyvgy9td2iadzSJLvPiD59bwU9Y"
+distri = "NXWBTWj6tHwbhkfEX2UREh9JBSzaKKABk4br8hztKpT"
 
 [registry]
 url = "https://anchor.projectserum.com"

@@ -2,7 +2,7 @@ use anchor_lang::{
     prelude::*,
 };
 
-declare_id!("HQKLqRybscqj5icnwXyvgy9td2iadzSJLvPiD59bwU9Y");
+declare_id!("NXWBTWj6tHwbhkfEX2UREh9JBSzaKKABk4br8hztKpT");
 
 #[program]
 pub mod distri {
@@ -18,7 +18,7 @@ pub mod distri {
         agreement.name = name;
         agreement.members = members;
         agreement.treasury = *ctx.accounts.treasury.key;
-        agreement.status = "INITIALIZATED".to_string();
+        agreement.status = "INITIALIZED".to_string();
 
         msg!(
             "Agreement {:#?} Created!",
